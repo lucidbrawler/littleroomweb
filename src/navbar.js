@@ -1,7 +1,7 @@
 import {Navbar,Nav,Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
-
+import logo from './media/logo.jpg';
 import './App.css'
 
 const Bar = () => {
@@ -15,7 +15,7 @@ const Bar = () => {
 <Navbar  className='navlab' collapseOnSelect expand="lg"  variant="light">
 
   <Container>
-  
+  <Navbar.Brand as={Link} to={"./"}><img src={logo}  className="logo" alt=""/></Navbar.Brand>
 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Bar from "./navbar";
 import Landing from "./routes/Landing";
