@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-image: url(./media/squiggle1.png);
+  min-height: 50rem;
+}
+.App2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.navlink{
+  height: 15rem;
 }
 
 .App-logo {
