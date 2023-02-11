@@ -9,25 +9,23 @@ import logotxt from '../media/logotxt.png';
 
 
 
-function Imgcar() {
-   
+function Imgcar2() {
+
 	const images = [`${pincnictable}`,`${reddoor}`,`${triangleglass}`,`${logotxt}`];
 	const [imageIndex, setImageIndex] = React.useState(0);
 
-	
-React.useEffect( () => {
-    setTimeout(()=>{
-        setInterval(() => {
-        
-            setImageIndex(prev => (
-              prev === images.length - 1 ? 0 : prev + 1
-            ));
+	React.useEffect(() => {
+	    setTimeout(()=>{
+            setInterval(() => {
             
-          }, 4000);
-
-
-    }, 1500);
-	  
+                setImageIndex(prev => (
+                  prev === images.length - 1 ? 0 : prev + 1
+                ));
+                
+              }, 4000);
+    
+    
+        }, 3000);
 	},[images.length])
 	
 	
@@ -49,4 +47,4 @@ React.useEffect( () => {
 	);
 }
 
-export default Imgcar;
+export default Imgcar2;

@@ -1,6 +1,8 @@
 import aboutus from '../media/aboutus.png';
 import logotxt from '../media/logotxt.png';
 import Imgcar from '../components/imgcar';
+import Imgcar2 from '../components/imgcar2';
+import Imgcar3 from '../components/imgcar3';
 
 import {Container, Row, Col } from 'react-bootstrap';
 
@@ -42,13 +44,13 @@ const Aboutus = () => (
       <Col>
       
       <h1>About Us</h1>
-      < Imgcar/>
+      < Imgcar2/>
       
       </Col>
       <Col>
      
       <h1>Contact</h1>
-      < Imgcar/>
+      < Imgcar3/>
       
       </Col>
       </Row>
