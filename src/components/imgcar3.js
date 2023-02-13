@@ -25,7 +25,7 @@ function Imgcar3() {
               }, 4000);
     
     
-        }, 4500);
+        }, 3000);
 	},[images.length])
 	
 	

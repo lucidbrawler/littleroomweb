@@ -45,20 +45,21 @@ const Landing = () => (
   <Container className="App2">
     <Row>
       <Col>
-       <Nav.Link className='form3' as={Link} to={"./Archive"}>
-        <h1>Archive</h1>
+       <Nav.Link   as={Link} to={"./Archive"}>
+        <h1 className="link1">Archive</h1>
       <img src={triangleglass}  className="navlink" alt=""/>
       </Nav.Link>
       </Col>
-      <Col>
-      <Nav.Link className='form3' as={Link} to={"./aboutus"}>
-      <h1>About Us</h1>
+      <Col >
+      <Nav.Link  as={Link} to={"./aboutus"}>
+      <h1 className="link2" >About Us</h1>
       <img src={reddoor}  className="navlink" alt=""/>
+      
       </Nav.Link>
       </Col>
       <Col>
-      <Nav.Link className='form3' as={Link} to={"./Contact"}>
-      <h1>Contact</h1>
+      <Nav.Link  as={Link} to={"./Contact"}>
+      <h1 className="link3">Contact</h1>
       <img src={pincnictable}  className="navlink" alt=""/>
       </Nav.Link>
       </Col>
@@ -70,19 +71,15 @@ const Landing = () => (
         <Col>
           
             <Col>
-              <p className="Paragraph4">
-               
-                Welcome!<br/><br/> I am Kenneth Sinclair Author and Printmaker @HatchetPress
-                I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
-                </p><p>
+            <p>
                 
                 <br/><br/>
                 <p className='Paragraph3'><h1>UPCOMING EVENTS:</h1><br/><br/>
-                <h2>{event1}</h2>
+                <h2><a className='event' href ={link1}>{event1}</a>
+                 </h2>
                
                 <p> <strong className='event'>{eventdate1}</strong>
-                 <h2><a className='event' href ={link1}>{event1}</a>
-                 </h2> {event1description}
+                 {event1description}
                  <br/><a className='event' href="https://www.google.com/maps/place/Wildflowers+Armory/@43.0488507,-76.1537488,17z/data=!4m5!3m4!1s0x89d9f34e099a73db:0xa40e93f2737b53f1!8m2!3d43.048849!4d-76.1515637"> {event1address} </a></p>
                   {/* 
                  <p>   

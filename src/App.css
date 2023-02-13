@@ -14,7 +14,55 @@
 .navlink{
   height: 15rem;
 }
-
+.link1{
+  color: rgb(11, 0, 112);
+  background-color: #61dafb;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 900;
+  max-width: 5rem;
+}
+.link2{
+  background-color: coral;
+  color: rgb(226, 43, 43);
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 900;
+  max-width: 9rem;
+}
+.link3{
+  background-color: rgb(235, 207, 136);
+  color: rgb(212, 91, 10);
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 900;
+  max-width: 5rem;
+}
+.par{
+  min-width: 20rem;
+  font-family:  'Lucida Sans Unicode';
+  font-size: larger;
+  max-width: 40rem;
+  margin: 10px;
+  padding: 10px;
+  color: aliceblue;
+  background-color: darkslategrey;
+}
+.par2{
+  font-family:  'Lucida Sans Unicode';
+  font-size: larger;
+  max-width: 40rem;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  background-color: rgb(195, 218, 218);
+}
+h2{ 
+  max-width: 20rem;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(0, 46, 114);
+  background-color: rgb(255, 154, 154);
+  border: cadetblue;
+  border-style: solid;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

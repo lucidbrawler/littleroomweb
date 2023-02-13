@@ -26,7 +26,7 @@ React.useEffect( () => {
           }, 4000);
 
 
-    }, 1500);
+    }, 1000);
 	  
 	},[images.length])
 	
