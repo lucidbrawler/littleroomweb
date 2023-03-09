@@ -9,6 +9,7 @@ import Contact from './routes/contact';
 import Shop from './routes/shop';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import OffcanvasExample from './navbar';
 
 
 
@@ -31,8 +32,10 @@ function App() {
 }
 
 const Home = () => (
+  <div>
+  <OffcanvasExample/>
  <Outlet/>
-  );
+ </div>);
 
 
 export default App;

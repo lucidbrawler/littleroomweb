@@ -3,8 +3,8 @@ import logotxt from '../media/logotxt.png';
 import Imgcar from '../components/imgcar';
 import Imgcar2 from '../components/imgcar2';
 import Imgcar3 from '../components/imgcar3';
-
-import {Container, Row, Col } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+import {Nav,Container, Row, Col } from 'react-bootstrap';
 
 const Aboutus = () => (
   <div className="App">
@@ -12,8 +12,12 @@ const Aboutus = () => (
     <div  >
 
     
+    <Nav.Link  as={Link} to={"/"}>
       
       <img src={logotxt}  className="navlink" alt=""/>
+      
+      </Nav.Link>
+       
       <img src={aboutus}  className="" alt=""/>
       
     </div>

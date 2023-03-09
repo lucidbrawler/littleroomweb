@@ -1,67 +1,55 @@
-import {Navbar,Nav,Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from "react-router-dom";
-import logo from './media/logo.jpg';
-import './App.css'
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const Bar = () => {
-
-    return (
-      
-      <div >
-      {/*  <Outlet />*/}
-      
-      
-<Navbar  className='navlab' collapseOnSelect expand="lg"  variant="light">
-
-  <Container>
-  <Navbar.Brand as={Link} to={"./"}><img src={logo}  className="logo" alt=""/></Navbar.Brand>
-
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto navo">
-      {/*<Nav.Link as={Link} to={"./menus"}>Features</Nav.Link>*/}
-    
-      < Nav.Link className='form3' as={Link} to={"./"}>
-        Home
-      </Nav.Link>
-      
-      <Nav.Link className='form3' as={Link} to={"./aboutus"}>
-        About
-      </Nav.Link>
-      <Nav.Link className='form3' as={Link} to={"./galleries"}>
-        Galleries
-      </Nav.Link>
-      <Nav.Link className='form3' as={Link} to={"./Shop"}>
-        Shop
-      </Nav.Link>
-      <Nav.Link className='form3' as={Link} to={"./contact"}>
-        Contact
-      </Nav.Link>
-    </Nav>
-    {/*<Nav>
-    <NavDropdown title="Packages and Pricing" id="collasible-nav-dropdown">
-    
-    <NavDropdown.Item as={Link} to={"./events"}>Gallery</NavDropdown.Item>
-    <NavDropdown.Item as={Link} to={"./menus"}>Commisions</NavDropdown.Item>
-   
- 
-    
-  </NavDropdown>
-    <Nav.Link as={Link} to={"./contact"}>
-        CONTACT US
-      </Nav.Link>
-      <Nav.Link href="https://www.instagram.com/explore/locations/663473593807965/scratch-farmhouse-catering/"><i class="bi bi-instagram"></i></Nav.Link>
-      <Nav.Link href="https://www.facebook.com/scratchfarmhousecatering/">
-        <i class="bi bi-facebook"></i>
-      </Nav.Link>
-    </Nav>*/}
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
-
-      </div>
-    );
+function OffcanvasExample() {
+  return (
+    <>
+      {[false].map((expand) => (
+        <Navbar  key={expand} bg="light" expand={expand} className="mb-3 ">
+          <Container className='colort' fluid>
+            <Navbar.Brand href="/">Navigation</Navbar.Brand>
+            <Navbar.Toggle    aria-controls={` offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas 
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  The Little Room
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3 ">
+                  <Nav.Link href="/archive">Archive</Nav.Link>
+                  <Nav.Link href="/aboutus">About Us</Nav.Link>
+                  <NavDropdown
+                    title="Dropdown"
+                    id={`offcanvasNavbarDropdown-expand-${expand}`}
+                  >
+                    <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">
+                      Another action
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action5">
+                      Something else here
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </Nav>
+               
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
+    </>
+  );
 }
 
-export default Bar;
+export default OffcanvasExample;

@@ -1,9 +1,9 @@
 .App {
   text-align: left;
-  background-image: url(./media/squiggle1.png);
-  background-repeat: repeat;
-  background-size: auto;
-  background-position: center;
+  background-image: url(./media/squiggle1.png), url(./media/squiggle12.png);;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, small;
+  background-position: center, right;
   min-height: 50rem;
 }
 .App2 {
@@ -59,7 +59,7 @@ h2{
   margin: 10px;
   padding: 10px;
   color: rgb(0, 46, 114);
-  background-color: rgb(255, 154, 154);
+  background-color: rgb(161, 159, 255);
   border: cadetblue;
   border-style: solid;
 }
@@ -98,4 +98,18 @@ h2{
   to {
     transform: rotate(360deg);
   }
+}
+.colort{
+  background-color: aqua;
+}
+.eventscard{
+  
+    max-width: 30rem;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(0, 46, 114);
+    background-color: rgb(255, 154, 154);
+    border: cadetblue;
+    border-style: solid;
+  
 }

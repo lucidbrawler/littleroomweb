@@ -38,9 +38,30 @@ const event4address = "@ 100 college ave , Syracuse, NY"
 const Landing = () => (
   
     <div className="App" >
-       
-       <img src={logotxt}  className="navlink" alt=""/>
+       <Nav.Link  as={Link} to={"./"}>
       
+      <img src={logotxt}  className="navlink" alt=""/>
+      
+      </Nav.Link>
+       
+       <Container>
+        <Row>
+       <Col >
+      <Nav.Link  as={Link} to={"./aboutus"}>
+      <h1 className="link2" >About Us</h1>
+      <img src={reddoor}  className="navlink" alt=""/>
+      
+      </Nav.Link>
+      </Col>
+
+      <Col>
+      <Nav.Link  as={Link} to={"./Contact"}>
+      <h1 className="link3">Contact</h1>
+      <img src={pincnictable}  className="navlink" alt=""/>
+      </Nav.Link>
+      </Col>
+      </Row>
+      </Container>
 <div >
   <Container className="App2">
     <Row>
@@ -50,28 +71,11 @@ const Landing = () => (
       <img src={triangleglass}  className="navlink" alt=""/>
       </Nav.Link>
       </Col>
-      <Col >
-      <Nav.Link  as={Link} to={"./aboutus"}>
-      <h1 className="link2" >About Us</h1>
-      <img src={reddoor}  className="navlink" alt=""/>
       
-      </Nav.Link>
-      </Col>
-      <Col>
-      <Nav.Link  as={Link} to={"./Contact"}>
-      <h1 className="link3">Contact</h1>
-      <img src={pincnictable}  className="navlink" alt=""/>
-      </Nav.Link>
-      </Col>
-      </Row>
-      </Container>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-    <Container>
-      <Row>
-        <Col>
+ 
           
             <Col>
-            <p>
+            <p className="eventscard"> 
                 
                 <br/><br/>
                 <p className='Paragraph3'><h1>UPCOMING EVENTS:</h1><br/><br/>
@@ -107,10 +111,12 @@ const Landing = () => (
               
             </Col>
           
-        </Col>
-        </Row>
-        </Container>
-        </div>
+       
+        
+      </Row>
+      </Container>
+      
+   
       </div>
       
         
