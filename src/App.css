@@ -1,9 +1,10 @@
 .App {
+  width: 100%;
   text-align: left;
-  background-image: url(./media/squiggle1.png), url(./media/squiggle12.png);;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, small;
-  background-position: center, right;
+  background-image: url(./media/squiggle1.png), url(./media/squiggle1.png),url(./media/squiggle1.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: large, small, medium;
+  background-position: left, bottom right, top right;
   min-height: 50rem;
 }
 .App2 {
@@ -100,7 +101,8 @@ h2{
   }
 }
 .colort{
-  background-color: aqua;
+  
+  background-image:linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
 }
 .eventscard{
   

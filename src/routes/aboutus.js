@@ -1,8 +1,6 @@
 import aboutus from '../media/aboutus.png';
 import logotxt from '../media/logotxt.png';
-import Imgcar from '../components/imgcar';
-import Imgcar2 from '../components/imgcar2';
-import Imgcar3 from '../components/imgcar3';
+import reddoor from '../media/redGallery.JPG';
 import { Link } from "react-router-dom";
 import {Nav,Container, Row, Col } from 'react-bootstrap';
 
@@ -19,7 +17,16 @@ const Aboutus = () => (
       </Nav.Link>
        
       <img src={aboutus}  className="" alt=""/>
-      
+      <img src={reddoor}  className="navlink" alt=""/>
+    </div>
+    
+    </Col>
+    <Col>
+    <div className='par2'>
+    <h2> created by artists</h2>
+      <p >We host events and multi-disciplinary programming in our gallery space.</p>
+    <p>Our programming provides opportunities for the community to come together around artists sharing their work. Our mission is to promote the arts as a means to create more joy!</p>
+    <p>Sometimes you just need <strong>a little room</strong> to make a big impact!</p>
     </div>
     <div className="par">
     <p className="">
@@ -32,37 +39,8 @@ const Aboutus = () => (
   <p> The Little Room is a community arts organization</p>
   
     </div>
-    </Col>
-    <Col>
-    <div className='par2'>
-    <h2> created by artists</h2>
-      <p >We host events and multi-disciplinary programming in our gallery space.</p>
-    <p>Our programming provides opportunities for the community to come together around artists sharing their work. Our mission is to promote the arts as a means to create more joy!</p>
-    <p>Sometimes you just need <strong>a little room</strong> to make a big impact!</p>
-    </div>
     </Col></Row></Container>
-    <Container className="App2">
-    <Row>
-      <Col>
-       
-        <h1>Archive</h1>
-        < Imgcar/>
-     
-      </Col>
-      <Col>
-      
-      <h1>About Us</h1>
-      < Imgcar2/>
-      
-      </Col>
-      <Col>
-     
-      <h1>Contact</h1>
-      < Imgcar3/>
-      
-      </Col>
-      </Row>
-      </Container>
+   
     
     </div>
     );
