@@ -40,7 +40,7 @@ const Landing = () => (
     <div className="App" >
        <Nav.Link  as={Link} to={"./"}>
       
-      <img src={logotxt}  className="navlink" alt=""/>
+      <img  src={logotxt}  className="navlink" alt=""/>
       
       </Nav.Link>
        
@@ -49,7 +49,14 @@ const Landing = () => (
        <Col >
       <Nav.Link  as={Link} to={"./aboutus"}>
       <h1 className="link2" >About Us</h1>
-      <img src={reddoor}  className="navlink" alt=""/>
+      <img  style={{
+          borderRadius: "60%",
+          borderStyle: 'solid',
+          width: 200,
+          height: 200,
+          background: "red",
+          display: "block"
+        }}src={reddoor}  className="navlink" alt=""/>
       
       </Nav.Link>
       </Col>
@@ -57,7 +64,14 @@ const Landing = () => (
       <Col>
       <Nav.Link  as={Link} to={"./Contact"}>
       <h1 className="link3">Contact</h1>
-      <img src={pincnictable}  className="navlink" alt=""/>
+      <img  style={{
+          borderRadius: "60%",
+          borderStyle: 'solid',
+          width: 200,
+          height: 200,
+          background: "red",
+          display: "block"
+        }} src={pincnictable}  className="navlink" alt=""/>
       </Nav.Link>
       </Col>
       </Row>
@@ -68,7 +82,14 @@ const Landing = () => (
       <Col>
        <Nav.Link   as={Link} to={"./Archive"}>
         <h1 className="link1">Archive</h1>
-      <img src={triangleglass}  className="navlink" alt=""/>
+      <img  style={{
+          borderRadius: "60%",
+          borderStyle: 'solid',
+          width: 200,
+          height: 200,
+          background: "red",
+          display: "block"
+        }} src={triangleglass}  className="navlink" alt=""/>
       </Nav.Link>
       </Col>
       
