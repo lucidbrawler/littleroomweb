@@ -81,6 +81,9 @@ const Landing = () => (
      
   </Col>
   <Col>
+      
+      </Col>
+  <Col>
            <Nav.Link className="navlink"  as={Link} to={"./aboutus"}>
       <h1 className="link2" >About Us</h1>
       <img  style={{
@@ -98,31 +101,12 @@ const Landing = () => (
       </Col>
       </Row>      </Container>
       </div>
-       <Container>
-         <Row>
-       <Col >
-  
-      
-     
        
-       
-       
-     
-      </Col>
-
-      <Col>
-      
-      </Col>
-      </Row>
-      </Container>
 
   
   <Container className="App2">
     <Row>
-      <Col>
-      
-      </Col>
-      
+    
  
           
             <Col >
