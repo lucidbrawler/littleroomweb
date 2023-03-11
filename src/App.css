@@ -1,5 +1,6 @@
 .App {
   width: 100%;
+  
   text-align: left;
   background-image: url(./media/squiggle1.png), url(./media/squiggle1.png),url(./media/squiggle1.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -19,7 +20,12 @@
  
 }
 .navlink{
-  height: 15rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+   max-width: 15rem;
+   min-width: 15rem;
+  margin: 1rem;
+  height: 18rem;
 }
 .link1{
   color: rgb(11, 0, 112);
@@ -63,6 +69,7 @@
 }
 
 h2{ 
+  min-width: 11rem;
   max-width: 20rem;
   margin: 10px;
   padding: 10px;
@@ -109,7 +116,7 @@ h2{
 }
 .colort{
   
-  background-image:linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-image:linear-gradient(to left, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
 }
 .eventscard{
   

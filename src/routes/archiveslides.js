@@ -6,8 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import pincnictable from '../media/pincnictable.jpeg';
 import reddoor from '../media/redGallery.JPG';
-import triangleglass from '../media/kaleidescope1.JPG';
-import logotxt from '../media/logotxt.png';
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -54,7 +52,7 @@ export default class Archiveslides extends Component {
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 700,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -71,32 +69,32 @@ export default class Archiveslides extends Component {
         ]
       };
       return (
-        <div className="App">
+        <div className="App2">
           <h2> Archive </h2>
           < Slider {...settings} className='App2'>
-            <div>
+            <div className="navlink">
               <h3><img className="navlink" src={pincnictable} alt=""/></h3>
             </div>
-            <div>
+            <div className="navlink">
               <h3><img className="navlink" src={reddoor} alt=""/></h3>
             </div>
-            <div>
-              <h3><img className="navlink" src={triangleglass} alt=""/></h3>
-            </div>
-            <div>
-              <h3><img className="navlink" src={logotxt} alt=""/></h3>
-            </div>
-            <div>
-              <h3><img className="navlink" src={reddoor} alt=""/></h3>
-            </div>
-            <div>
+            <div className="navlink">
               <h3><img className="navlink" src={pincnictable} alt=""/></h3>
             </div>
-            <div>
+            <div className="navlink">
               <h3><img className="navlink" src={reddoor} alt=""/></h3>
             </div>
-            <div>
-              <h3><img className="navlink" src={triangleglass} alt=""/></h3>
+            <div className="navlink">
+              <h3><img className="navlink" src={pincnictable} alt=""/></h3>
+            </div>
+            <div className="navlink">
+              <h3><img className="navlink" src={reddoor} alt=""/></h3>
+            </div>
+            <div className="navlink">
+              <h3><img className="navlink" src={pincnictable} alt=""/></h3>
+            </div>
+            <div className="navlink">
+              <h3><img className="navlink" src={reddoor} alt=""/></h3>
             </div>
           </Slider>
         </div>

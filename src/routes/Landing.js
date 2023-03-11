@@ -38,64 +38,94 @@ const event4address = "@ 100 college ave , Syracuse, NY"
 const Landing = () => (
   
     <div className="App" >
-       <Nav.Link  as={Link} to={"./"}>
-      
-      <img  src={logotxt}  className="navlink" alt=""/>
-      
-      </Nav.Link>
-       
-       <Container>
-        <Row>
-       <Col >
-      <Nav.Link  as={Link} to={"./aboutus"}>
-      <h1 className="link2" >About Us</h1>
-      <img  style={{
-          borderRadius: "60%",
-          borderStyle: 'solid',
-          width: 200,
-          height: 200,
-          background: "red",
-          display: "block"
-        }}src={reddoor}  className="navlink" alt=""/>
-      
-      </Nav.Link>
-      </Col>
-
+      <Container>
+      <Row>
       <Col>
-      <Nav.Link  as={Link} to={"./Contact"}>
+           <img  src={logotxt}  className="navlink" alt=""/>
+           </Col> 
+<Col>
+<Nav.Link className="navlink " as={Link} to={"./Contact"}>
       <h1 className="link3">Contact</h1>
       <img  style={{
           borderRadius: "60%",
           borderStyle: 'solid',
-          width: 200,
-          height: 200,
-          background: "red",
+          width: '13rem',
+          height: '13rem',
+          background: "blue",
           display: "block"
-        }} src={pincnictable}  className="navlink" alt=""/>
+        }} src={pincnictable}  alt=""/>
       </Nav.Link>
-      </Col>
-      </Row>
-      </Container>
-<div >
-  <Container className="App2">
-    <Row>
-      <Col>
-       <Nav.Link   as={Link} to={"./Archive"}>
+</Col>     
+</Row>      
+</Container>
+           <div>
+            <Container>
+ <Row>          <Col >
+  
+      
+     
+ <Nav.Link  className="navlink " as={Link} to={"./Archive"}>
         <h1 className="link1">Archive</h1>
       <img  style={{
           borderRadius: "60%",
           borderStyle: 'solid',
-          width: 200,
-          height: 200,
-          background: "red",
+          
+          width: '13rem',
+          height: '13rem',
+          background: "orange",
           display: "block"
-        }} src={triangleglass}  className="navlink" alt=""/>
+        }} src={triangleglass}  alt=""/>
       </Nav.Link>
+       
+       
+     
+  </Col>
+  <Col>
+           <Nav.Link className="navlink"  as={Link} to={"./aboutus"}>
+      <h1 className="link2" >About Us</h1>
+      <img  style={{
+          borderRadius: "60%",
+          borderStyle: 'solid',
+          width: '13rem',
+          height: '13rem',
+          
+          
+          background: "yellow",
+          display: "block"
+        }}src={reddoor}  alt=""/>
+      
+      </Nav.Link>
+      </Col>
+      </Row>      </Container>
+      </div>
+       <Container>
+         <Row>
+       <Col >
+  
+      
+     
+       
+       
+       
+     
+      </Col>
+
+      <Col>
+      
+      </Col>
+      </Row>
+      </Container>
+
+  
+  <Container className="App2">
+    <Row>
+      <Col>
+      
       </Col>
       
  
           
-            <Col>
+            <Col >
             <p className="eventscard"> 
                 
                 <br/><br/>
@@ -138,7 +168,7 @@ const Landing = () => (
       </Container>
       
    
-      </div>
+      
       
         
     <br/>
