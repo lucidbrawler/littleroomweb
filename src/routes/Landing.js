@@ -8,14 +8,15 @@ import logotxt from '../media/logotxt.png';
 
 
 // EVENT CALANDER AND DATES
-const event1 = "pleasure island"
+const event1 = "The Fool's Variety Show"
 
 
 
 const link1 = "https://www.instagram.com/p/CoNgpbpuBTs/"
-const eventdate1 = "feb 26th: 12pm-5pm"
-const event1description = "Live Music and Shopping! Isreal Hogon solo Acoustic"
-const event1address =  "@ Entrance on Fayette Side, 217 S Salina St, Syracuse, NY 13202"
+const eventdate1 = "April 1st: 7pm-11pm"
+const event1description = "Local Artist Showcase, Performances, and More"
+const event1address =  "@ 200 S Geddes St, Syracuse, NY, United States, New York"
+const event1addresslink="https://www.google.com/maps/place/The+Little+Room/@43.0456975,-76.1713244,15z/data=!4m2!3m1!1s0x0:0x20d259a020af6c54?sa=X&ved=2ahUKEwii4dHCq9f9AhV4E1kFHdgoB1oQ_BJ6BAhAEAg"
 /*
 const event2 = "Ithaca Night Bazar!"
 const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
@@ -117,9 +118,9 @@ const Landing = () => (
                 <h2><a className='event' href ={link1}>{event1}</a>
                  </h2>
                
-                <p> <strong className='event'>{eventdate1}</strong>
+                <p> <strong className='event'>{eventdate1}</strong> <br/>
                  {event1description}
-                 <br/><a className='event' href="https://www.google.com/maps/place/Wildflowers+Armory/@43.0488507,-76.1537488,17z/data=!4m5!3m4!1s0x89d9f34e099a73db:0xa40e93f2737b53f1!8m2!3d43.048849!4d-76.1515637"> {event1address} </a></p>
+                 <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
                   {/* 
                  <p>   
                  <strong className='event'>{eventdate2}</strong>
