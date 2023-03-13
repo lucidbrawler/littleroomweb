@@ -39,7 +39,7 @@ const ContactForm = () => {
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
      
     <header className="">
-    <p className="Paragraph3">Hatchet Press is currently looking for vendor events and opportunities. </p> 
+    <p className="Paragraph3">The Little Room is currently looking for artists, vendors, and collaboraters of the community to help create opportunities. </p> 
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
         <label className="Paragraph" htmlFor="name">Name:</label>
