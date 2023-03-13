@@ -19,7 +19,7 @@ const Aboutus = () => (
       <img src={aboutus}  className="" alt=""/>
       <img src={reddoor}  className="navlink" alt=""/>
     </div>
-    
+ 
     </Col>
     <Col>
     <div className='par2'>

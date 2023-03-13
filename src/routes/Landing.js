@@ -3,7 +3,7 @@ import {Nav,Container, Row, Col, Button } from 'react-bootstrap';
 import pincnictable from '../media/pincnictable.jpeg';
 import reddoor from '../media/redGallery.JPG';
 import triangleglass from '../media/kaleidescope1.JPG';
-import logotxt from '../media/logotxt.png';
+import logotxt from '../media/logoandtxt.png';
 
 
 

@@ -16,12 +16,12 @@ const Archive = () => (
     <p className="">
       <h2>A Flexible Events Organization</h2>
               <h3>The "Venue"</h3>
-                Welcome!<br/><br/> <p>The Little Room originates from our brick and mortor space
+                <br/><br/> <p>The Little Room originates from our brick and mortor space
       that is in fact a very small room. We have modeled the space to look and feel like an art gallery.
     </p>
-    <p>Beyond this small room we offer events and programming in other ares inside and outside the Grear Factory as well as throughout the Syracuse area.<strong>a little room</strong> to make a big impact!</p>
+    <p>Beyond this small room we offer events and programming in other areas inside and outside the Gear Factory as well as throughout the Syracuse area.</p>
                 </p>
-  <p> The Little Room is a community arts organization</p>
+
   
     </div>
     </Col>
