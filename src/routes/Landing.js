@@ -8,11 +8,9 @@ import logotxt from '../media/logotxt.png';
 
 
 // EVENT CALANDER AND DATES
+
 const event1 = "The Fool's Variety Show"
-
-
-
-const link1 = "https://www.instagram.com/p/CoNgpbpuBTs/"
+const link1 = "https://www.instagram.com/p/Cpn-1TUOnNl/"
 const eventdate1 = "April 1st: 7pm-11pm"
 const event1description = "Local Artist Showcase, Performances, and More"
 const event1address =  "@ 200 S Geddes St, Syracuse, NY, United States, New York"
