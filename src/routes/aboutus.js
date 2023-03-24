@@ -29,7 +29,18 @@ const Aboutus = () => (
     <p>Our programming provides opportunities for the community to come together around artists sharing their work. Our mission is to promote the arts as a means to create more joy!</p>
     <p>Sometimes you just need <strong>a little room</strong> to make a big impact!</p>
     </div>
-    
+    <div className="par">
+    <p className="">
+      <h2>A Flexible Events Organization</h2>
+              <h3>The "Venue"</h3>
+                <br/><br/> <p>The Little Room originates from our brick and mortor space
+      that is in fact a very small room. We have modeled the space to look and feel like an art gallery.
+    </p>
+    <p>Beyond this small room we offer events and programming in other areas inside and outside the Gear Factory as well as throughout the Syracuse area.</p>
+                </p>
+
+  
+    </div>
     </Col></Row></Container>
    
     

@@ -40,7 +40,40 @@ const Landing = () => (
       <Container>
       <Row>
       <Col>
-           <img  src={logotxt}  className="navlink" alt=""/>
+      <p className="eventscard"> 
+                
+                <br/><br/>
+                <p className='Paragraph3'><h1>UPCOMING EVENTS:</h1><br/><br/>
+                <h2><a className='event' href ={link1}>{event1}</a>
+                 </h2>
+               
+                <p> <strong className='event'>{eventdate1}</strong> <br/>
+                 {event1description}
+                 <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
+                  {/* 
+                 <p>   
+                 <strong className='event'>{eventdate2}</strong>
+                 <h2><a className='event' href={link2}>{event2}</a>
+                 </h2> {event2description}<br/>{event2address} </p>
+                 <br/><br/>
+                
+                <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
+                 <h2><a className='event' href ={link3}>{event3}</a>
+                 </h2>{event3description} 
+                 <br/> {event3address}</p><p> 
+                   <strong className='event'>{eventdate4}</strong>
+                 <h2><a className='event' href={link4}>{event4}</a>
+                 </h2>{event4description}<br/> {event4address}</p>
+                 */}
+                 </p>
+                
+          
+                
+                 
+                
+                <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
+              </p>
+              
            </Col> 
 <Col>
 <Nav.Link className="navlink " as={Link} to={"./Contact"}>
@@ -109,40 +142,7 @@ const Landing = () => (
  
           
             <Col >
-            <p className="eventscard"> 
-                
-                <br/><br/>
-                <p className='Paragraph3'><h1>UPCOMING EVENTS:</h1><br/><br/>
-                <h2><a className='event' href ={link1}>{event1}</a>
-                 </h2>
-               
-                <p> <strong className='event'>{eventdate1}</strong> <br/>
-                 {event1description}
-                 <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
-                  {/* 
-                 <p>   
-                 <strong className='event'>{eventdate2}</strong>
-                 <h2><a className='event' href={link2}>{event2}</a>
-                 </h2> {event2description}<br/>{event2address} </p>
-                 <br/><br/>
-                
-                <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
-                 <h2><a className='event' href ={link3}>{event3}</a>
-                 </h2>{event3description} 
-                 <br/> {event3address}</p><p> 
-                   <strong className='event'>{eventdate4}</strong>
-                 <h2><a className='event' href={link4}>{event4}</a>
-                 </h2>{event4description}<br/> {event4address}</p>
-                 */}
-                 </p>
-                
-          
-                
-                 
-                
-                <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
-              </p>
-              
+           
             </Col>
           
        

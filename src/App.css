@@ -28,13 +28,15 @@
   height: 18rem;
 }
 .link1{
+  border-radius: 5rem 3rem 7rem 3rem;
   color: rgb(11, 0, 112);
-  background-color: #61dafb;
+  background-color: #45cdf3;
   font-family: 'Franklin Gothic Medium';
   font-weight: 900;
   max-width: 5rem;
 }
 .link2{
+  border-radius: 5rem 3rem 7rem 3rem;
   background-color: coral;
   color: rgb(226, 43, 43);
   font-family: 'Franklin Gothic Medium';
@@ -42,6 +44,7 @@
   max-width: 9rem;
 }
 .link3{
+  border-radius: 5rem 3rem 7rem 3rem;
   background-color: rgb(235, 207, 136);
   color: rgb(212, 91, 10);
   font-family: 'Franklin Gothic Medium';

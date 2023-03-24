@@ -30,7 +30,7 @@ function SampleNextArrow(props) {
   }
   
 
-export default class Archiveslides extends Component {
+export default class Archiveslides2 extends Component {
     render() {
       var settings = {
         dots: true,
@@ -70,7 +70,7 @@ export default class Archiveslides extends Component {
       };
       return (
         <div className="App2">
-          <h2> Archives </h2>
+          <h2> Partys </h2>
           < Slider {...settings} className='App2'>
             <div className="navlink">
               <div><p>atop</p><h3><img className="navlink" src={pincnictable} alt=""/></h3>
