@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import {Nav } from 'react-bootstrap';
-import logotxt from '../media/logotxt.png';
+import OffcanvasExample from '../navbar';
 import '../App.css';
 
 const ContactForm = () => {
@@ -30,12 +28,10 @@ const ContactForm = () => {
   
   
   return (
+    
     <div className="App" >
-      <Nav.Link className="navlink" as={Link} to={"/"}>
+      <OffcanvasExample/>
       
-      <img src={logotxt}  className="navlink" alt=""/>
-      
-      </Nav.Link>
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
      
     <header className="">

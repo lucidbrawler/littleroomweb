@@ -69,9 +69,9 @@ export default class Archiveslides2 extends Component {
         ]
       };
       return (
-        <div className="App2">
+        <div className="">
           <h2> Partys </h2>
-          < Slider {...settings} className='App2'>
+          < Slider {...settings} className=''>
             <div className="navlink">
               <div><p>atop</p><h3><img className="navlink" src={pincnictable} alt=""/></h3>
               <div>

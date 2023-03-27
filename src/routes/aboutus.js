@@ -1,27 +1,18 @@
 import aboutus from '../media/aboutus.png';
-import logotxt from '../media/logotxt.png';
-import reddoor from '../media/redGallery.JPG';
-import { Link } from "react-router-dom";
-import {Nav,Container, Row, Col } from 'react-bootstrap';
 
+import {Container, Row } from 'react-bootstrap';
+import OffcanvasExample from '../navbar';
 const Aboutus = () => (
   <div className="App">
-    <Container><Row><Col>
-    <div  >
-
+    <OffcanvasExample/>
+    <Container ><Row>
     
-    <Nav.Link  as={Link} to={"/"}>
-      
-      <img src={logotxt}  className="navlink" alt=""/>
-      
-      </Nav.Link>
-       
+    <div>
       <img src={aboutus}  className="" alt=""/>
-      <img src={reddoor}  className="navlink" alt=""/>
     </div>
+    
  
-    </Col>
-    <Col>
+    
     <div className='par2'>
       <h2>The Little Room is a community arts organization</h2>
     <h3> created by artists</h3>
@@ -41,7 +32,7 @@ const Aboutus = () => (
 
   
     </div>
-    </Col></Row></Container>
+   </Row></Container>
    
     
     </div>

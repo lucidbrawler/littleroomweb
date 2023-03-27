@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import {Nav,Container, Row, Col, Button } from 'react-bootstrap';
+import {Nav,Container, Row, Col } from 'react-bootstrap';
 import pincnictable from '../media/pincnictable.jpeg';
 import reddoor from '../media/redGallery.JPG';
 import triangleglass from '../media/kaleidescope1.JPG';
-import logotxt from '../media/logoandtxt.png';
 
+import logo from '../media/LRlogo.svg';
 
 
 // EVENT CALANDER AND DATES
@@ -40,10 +40,18 @@ const Landing = () => (
       <Container>
       <Row>
       <Col>
+      
+
       <p className="eventscard"> 
+      <img className="colort" style={{
+          
+        
+         
+        }}src={logo}  alt=""/>
                 
-                <br/><br/>
-                <p className='Paragraph3'><h1>UPCOMING EVENTS:</h1><br/><br/>
+                
+                <p className='Paragraph3'><br/><br/>
+                <h3>UPCOMING EVENTS:</h3>
                 <h2><a className='event' href ={link1}>{event1}</a>
                  </h2>
                
@@ -71,21 +79,15 @@ const Landing = () => (
                 
                  
                 
-                <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
+                <br /><br />
               </p>
               
            </Col> 
 <Col>
 <Nav.Link className="navlink " as={Link} to={"./Contact"}>
       <h1 className="link3">Contact</h1>
-      <img  style={{
-          borderRadius: "60%",
-          borderStyle: 'solid',
-          width: '13rem',
-          height: '13rem',
-          background: "blue",
-          display: "block"
-        }} src={pincnictable}  alt=""/>
+      <img className="colort2" src={pincnictable}  alt=""/>
+        
       </Nav.Link>
 </Col>     
 </Row>      
@@ -98,15 +100,7 @@ const Landing = () => (
      
  <Nav.Link  className="navlink " as={Link} to={"./Archive"}>
         <h1 className="link1">Archive</h1>
-      <img  style={{
-          borderRadius: "60%",
-          borderStyle: 'solid',
-          
-          width: '13rem',
-          height: '13rem',
-          background: "orange",
-          display: "block"
-        }} src={triangleglass}  alt=""/>
+      <img className="colort2" src={triangleglass}  alt=""/>
       </Nav.Link>
        
        
@@ -118,16 +112,7 @@ const Landing = () => (
   <Col>
            <Nav.Link className="navlink"  as={Link} to={"./aboutus"}>
       <h1 className="link2" >About Us</h1>
-      <img  style={{
-          borderRadius: "60%",
-          borderStyle: 'solid',
-          width: '13rem',
-          height: '13rem',
-          
-          
-          background: "yellow",
-          display: "block"
-        }}src={reddoor}  alt=""/>
+      <img className="colort2" src={reddoor}  alt=""/>
       
       </Nav.Link>
       </Col>

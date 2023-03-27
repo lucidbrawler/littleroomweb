@@ -1,6 +1,17 @@
 .App {
   width: 100%;
-  
+  text-align: left;
+  background-image: url(./media/squiggle1.png), url(./media/squiggle1.png),url(./media/squiggle1.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: large, small, medium;
+  background-position: left, bottom right, top right;
+  min-height: 50rem;
+}
+.App2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: left;
   background-image: url(./media/squiggle1.png), url(./media/squiggle1.png),url(./media/squiggle1.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -28,28 +39,43 @@
   height: 18rem;
 }
 .link1{
-  border-radius: 5rem 3rem 7rem 3rem;
-  color: rgb(11, 0, 112);
-  background-color: #45cdf3;
+  border-style: solid;
+  border-color: rgba(255, 255, 0, 0.575);
+  border-radius: 3rem 3rem 7rem 2rem;
+ background-color: rgb(130, 200, 221);
+  color: rgb(28, 31, 32);
   font-family: 'Franklin Gothic Medium';
   font-weight: 900;
   max-width: 5rem;
 }
+.link1:hover{
+  background-color: yellow;
+}
 .link2{
-  border-radius: 5rem 3rem 7rem 3rem;
-  background-color: coral;
-  color: rgb(226, 43, 43);
+  border-style: solid;
+  border-color: rgba(255, 255, 0, 0.575);
+  border-radius: 3rem 3rem 7rem 2rem;
+  background-color: rgb(130, 200, 221);
+  color: rgb(28, 31, 32);
   font-family: 'Franklin Gothic Medium';
   font-weight: 900;
   max-width: 9rem;
 }
+.link2:hover{
+  background-color: yellow;
+}
 .link3{
-  border-radius: 5rem 3rem 7rem 3rem;
-  background-color: rgb(235, 207, 136);
-  color: rgb(212, 91, 10);
+  border-style: solid;
+  border-color: rgba(255, 255, 0, 0.575);
+  border-radius: 3rem 3rem 7rem 2rem;
+  background-color: rgb(130, 200, 221);
+  color: rgb(28, 31, 32);
   font-family: 'Franklin Gothic Medium';
   font-weight: 900;
   max-width: 5rem;
+}
+.link3:hover{
+  background-color: yellow;
 }
 .par{
   min-width: 20rem;
@@ -76,8 +102,8 @@ h2{
   max-width: 20rem;
   margin: 10px;
   padding: 10px;
-  color: rgb(0, 46, 114);
-  background-color: rgb(161, 159, 255);
+  color:black;
+  background-color: rgb(207, 207, 214);
   border: cadetblue;
   border-style: solid;
 }
@@ -92,7 +118,7 @@ h2{
   }
 }
 .logo{
-  height: 3.5rem;
+  height: 5rem;
 }
 .App-header {
   background-color: #282c34;
@@ -118,18 +144,41 @@ h2{
   }
 }
 .colort{
-  
-  border-radius: 10rem;
-  background-image:linear-gradient(to right, rgb(255, 225, 185),  rgb(55, 134, 128) );
+border-radius: 50%;
+width: 13rem;
+height: 13rem;
+border-style: solid;
+background: "yellow";
+display: "block"
 }
+.colort2{
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  border-style: solid;
+  background: "yellow";
+  display: "block"
+  }
+  .colort2:hover{
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    border-style: solid;
+    background: "yellow";
+    display: "block"
+    }
 .eventscard{
   
     max-width: 30rem;
     margin: 10px;
     padding: 10px;
     color: rgb(0, 46, 114);
-    background-color: rgb(255, 154, 154);
+    background-color: rgb(218, 193, 193);
     border: cadetblue;
     border-style: solid;
   
+}
+.event{
+  color:rgb(46, 46, 46);
+  text-decoration: none
 }

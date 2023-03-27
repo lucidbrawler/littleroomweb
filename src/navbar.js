@@ -1,6 +1,6 @@
 
 import Container from 'react-bootstrap/Container';
-import logo from './media/logo.jpg';
+import logo from './media/LRlogo.svg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -12,7 +12,7 @@ function OffcanvasExample() {
       {[false].map((expand) => (
         <Navbar  key={expand} bg="" expand={expand} className="mb-3 ">
           <Container  fluid>
-            <Navbar.Brand href="/"><img href="/" className="logo" alt=""src={logo}/></Navbar.Brand>
+            <Navbar.Brand href="/"><img className="logo" src={logo}  alt=""/></Navbar.Brand>
             <Navbar.Toggle className=''   aria-controls={` offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas 
               id={`offcanvasNavbar-expand-${expand}`}
