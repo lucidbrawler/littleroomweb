@@ -1,8 +1,7 @@
 import aboutus from '../media/aboutus.png';
-
 import reddoor from '../media/redGallery.JPG';
-
 import {Container, Row, Col } from 'react-bootstrap';
+
 import OffcanvasExample from '../navbar';
 const Aboutus = () => (
   <div className="App">
