@@ -1,18 +1,24 @@
 import aboutus from '../media/aboutus.png';
 
-import {Container, Row } from 'react-bootstrap';
+import reddoor from '../media/redGallery.JPG';
+
+import {Container, Row, Col } from 'react-bootstrap';
 import OffcanvasExample from '../navbar';
 const Aboutus = () => (
   <div className="App">
-    <OffcanvasExample/>
-    <Container ><Row>
+     <OffcanvasExample/>
+    <Container><Row><Col>
+    <div  >
+
     
-    <div>
+  
+       
       <img src={aboutus}  className="" alt=""/>
+      <img src={reddoor}  className="navlink" alt=""/>
     </div>
-    
  
-    
+    </Col>
+    <Col>
     <div className='par2'>
       <h2>The Little Room is a community arts organization</h2>
     <h3> created by artists</h3>
@@ -32,7 +38,7 @@ const Aboutus = () => (
 
   
     </div>
-   </Row></Container>
+    </Col></Row></Container>
    
     
     </div>
