@@ -41,46 +41,12 @@ const Landing = () => (
       <Row>
       <Col>
       
-
-      <p className="eventscard"> 
       <img className="colort" style={{
           
         
          
         }}src={logo}  alt=""/>
-                
-                
-                <p className='Paragraph3'><br/><br/>
-                <h3>UPCOMING EVENTS:</h3>
-                <h2><a className='event' href ={link1}>{event1}</a>
-                 </h2>
-               
-                <p> <strong className='event'>{eventdate1}</strong> <br/>
-                 {event1description}
-                 <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
-                  {/* 
-                 <p>   
-                 <strong className='event'>{eventdate2}</strong>
-                 <h2><a className='event' href={link2}>{event2}</a>
-                 </h2> {event2description}<br/>{event2address} </p>
-                 <br/><br/>
-                
-                <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
-                 <h2><a className='event' href ={link3}>{event3}</a>
-                 </h2>{event3description} 
-                 <br/> {event3address}</p><p> 
-                   <strong className='event'>{eventdate4}</strong>
-                 <h2><a className='event' href={link4}>{event4}</a>
-                 </h2>{event4description}<br/> {event4address}</p>
-                 */}
-                 </p>
-                
-          
-                
-                 
-                
-                <br /><br />
-              </p>
+      
               
            </Col> 
 <Col>
@@ -116,24 +82,44 @@ const Landing = () => (
       
       </Nav.Link>
       </Col>
+      <Col><p className="eventscard"> 
+    
+                
+                
+    <p className='Paragraph3'><br/><br/>
+    <h3>UPCOMING EVENTS:</h3>
+    <h2><a className='event' href ={link1}>{event1}</a>
+     </h2>
+   
+    <p> <strong className='event'>{eventdate1}</strong> <br/>
+     {event1description}
+     <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
+      {/* 
+     <p>   
+     <strong className='event'>{eventdate2}</strong>
+     <h2><a className='event' href={link2}>{event2}</a>
+     </h2> {event2description}<br/>{event2address} </p>
+     <br/><br/>
+    
+    <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
+     <h2><a className='event' href ={link3}>{event3}</a>
+     </h2>{event3description} 
+     <br/> {event3address}</p><p> 
+       <strong className='event'>{eventdate4}</strong>
+     <h2><a className='event' href={link4}>{event4}</a>
+     </h2>{event4description}<br/> {event4address}</p>
+     */}
+     </p>
+    
+
+    
+     
+    
+    <br /><br />
+  </p></Col>
       </Row>      </Container>
       </div>
        
-
-  
-  <Container className="App2">
-    <Row>
-    
- 
-          
-            <Col >
-           
-            </Col>
-          
-       
-        
-      </Row>
-      </Container>
       
    
       

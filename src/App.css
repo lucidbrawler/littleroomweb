@@ -145,13 +145,17 @@ h2{
     transform: rotate(360deg);
   }
 }
+.aricheslideshow{
+  padding: 3rem;
+}
 .colort{
 border-radius: 50%;
 width: 13rem;
 height: 13rem;
 border-style: solid;
 background: "yellow";
-display: "block"
+display: "block";
+margin: 1rem;
 }
 .colort2{
   border-radius: 50%;
@@ -171,7 +175,7 @@ display: "block"
     }
 .eventscard{
   
-    max-width: 30rem;
+    width: 25rem;
     margin: 10px;
     padding: 10px;
     color: rgb(0, 46, 114);

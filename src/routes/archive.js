@@ -10,10 +10,10 @@ const Archive = () => (
       <OffcanvasExample/>
        <Container>
         <Row>
-          <Col>
-            <Archiveslides/>
+          <Col className="aricheslideshow">
+            <Archiveslides />
           </Col>
-          <Col>
+          <Col className="aricheslideshow">
             <Archiveslides2/>
           </Col>
         </Row>
