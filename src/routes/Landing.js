@@ -40,14 +40,8 @@ const Landing = () => (
     <Container>
       <Row>
         <Col>
-
           <img className="colort" style={{
-
-
-
           }} src={logo} alt="" />
-
-
         </Col>
         <Col>
           <Nav.Link className="navlink " as={Link} to={"./Contact"}>
@@ -56,18 +50,12 @@ const Landing = () => (
 
           </Nav.Link>
         </Col>
-        <Col>    <Nav.Link className="navlink" as={Link} to={"./aboutus"}>
-              <h1 className="link2" >About Us</h1>
-              <img className="colort2" src={reddoor} alt="" />
-
-            </Nav.Link>
-        </Col>
+        <Col></Col>
+     
       </Row>
-    </Container>
-    <div>
-      <Container>
-        <Row>         
-           <Col >
+
+      <Row>
+        <Col >
 
 
 
@@ -79,20 +67,27 @@ const Landing = () => (
 
 
         </Col>
-          <Col>
+        <Col>    <Nav.Link className="navlink" as={Link} to={"./aboutus"}>
+          <h1 className="link2" >About Us</h1>
+          <img className="colort2" src={reddoor} alt="" />
+
+        </Nav.Link>
+        </Col>
+      
+        <Col>
           <p className="eventscard">
 
 
 
-<p className='Paragraph3'><br /><br />
-  <h3>UPCOMING EVENTS:</h3>
-  <h2><a className='eventt' href={link1}>{event1}</a>
-  </h2>
+            <p className='Paragraph3'><br /><br />
+              <h3>UPCOMING EVENTS:</h3>
+              <h2><a className='eventt' href={link1}>{event1}</a>
+              </h2>
 
-  <p> <strong className='event'>{eventdate1}</strong> <br />
-    {event1description}
-    <br /><a className='event' href={event1addresslink}> {event1address} </a></p>
-  {/* 
+              <p> <strong className='event'>{eventdate1}</strong> <br />
+                {event1description}
+                <br /><a className='event' href={event1addresslink}> {event1address} </a></p>
+              {/* 
 <p>   
 <strong className='event'>{eventdate2}</strong>
 <h2><a className='event' href={link2}>{event2}</a>
@@ -107,20 +102,20 @@ const Landing = () => (
 <h2><a className='event' href={link4}>{event4}</a>
 </h2>{event4description}<br/> {event4address}</p>
 */}
-</p>
+            </p>
 
 
 
 
 
-</p>
-          </Col>
-         
-          
-        </Row>
+          </p>
+        </Col>
 
-      </Container>
-    </div>
+
+      </Row>
+
+    </Container>
+
 
 
 

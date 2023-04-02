@@ -1,4 +1,4 @@
-import aboutus from '../media/aboutus.png';
+
 import reddoor from '../media/redGallery.JPG';
 import {Container, Row, Col } from 'react-bootstrap';
 
@@ -8,11 +8,6 @@ const Aboutus = () => (
      <OffcanvasExample/>
     <Container><Row><Col>
     <div  >
-
-    
-  
-       
-      <img src={aboutus}  className="" alt=""/>
       <img src={reddoor}  className="navlink" alt=""/>
     </div>
  
