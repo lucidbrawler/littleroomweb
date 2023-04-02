@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {Nav,Container, Row, Col } from 'react-bootstrap';
+import { Nav, Container, Row, Col } from 'react-bootstrap';
 import pincnictable from '../media/pincnictable.jpeg';
 import reddoor from '../media/redGallery.JPG';
 import triangleglass from '../media/kaleidescope1.JPG';
@@ -13,8 +13,8 @@ const event1 = "The Fool's Variety Show"
 const link1 = "https://www.instagram.com/p/Cpn-1TUOnNl/"
 const eventdate1 = "April 1st: 7pm-11pm"
 const event1description = "Local Artist Showcase, Performances, and More"
-const event1address =  "@ 200 S Geddes St, Syracuse, NY, United States, New York"
-const event1addresslink="https://www.google.com/maps/place/The+Little+Room/@43.0456975,-76.1713244,15z/data=!4m2!3m1!1s0x0:0x20d259a020af6c54?sa=X&ved=2ahUKEwii4dHCq9f9AhV4E1kFHdgoB1oQ_BJ6BAhAEAg"
+const event1address = "@ 200 S Geddes St, Syracuse, NY, United States, New York"
+const event1addresslink = "https://www.google.com/maps/place/The+Little+Room/@43.0456975,-76.1713244,15z/data=!4m2!3m1!1s0x0:0x20d259a020af6c54?sa=X&ved=2ahUKEwii4dHCq9f9AhV4E1kFHdgoB1oQ_BJ6BAhAEAg"
 /*
 const event2 = "Ithaca Night Bazar!"
 const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
@@ -35,99 +35,101 @@ const event4address = "@ 100 college ave , Syracuse, NY"
 
 
 const Landing = () => (
-  
-    <div className="App" >
-      <Container>
-      <Row>
-      <Col>
-      
-      <img className="colort" style={{
-          
-        
-         
-        }}src={logo}  alt=""/>
-      
-              
-           </Col> 
-<Col>
-<Nav.Link className="navlink " as={Link} to={"./Contact"}>
-      <h1 className="link3">Contact</h1>
-      <img className="colort2" src={pincnictable}  alt=""/>
-        
-      </Nav.Link>
-</Col>     
-</Row>      
-</Container>
-           <div>
-            <Container>
- <Row>          <Col >
-  
-      
-     
- <Nav.Link  className="navlink " as={Link} to={"./Archive"}>
-        <h1 className="link1">Archive</h1>
-      <img className="colort2" src={triangleglass}  alt=""/>
-      </Nav.Link>
-       
-       
-     
-  </Col>
-  <Col>
-      
-      </Col>
-  <Col>
-           <Nav.Link className="navlink"  as={Link} to={"./aboutus"}>
-      <h1 className="link2" >About Us</h1>
-      <img className="colort2" src={reddoor}  alt=""/>
-      
-      </Nav.Link>
-      </Col>
-      <Col><p className="eventscard"> 
-    
-                
-                
-    <p className='Paragraph3'><br/><br/>
-    <h3>UPCOMING EVENTS:</h3>
-    <h2><a className='event' href ={link1}>{event1}</a>
-     </h2>
-   
-    <p> <strong className='event'>{eventdate1}</strong> <br/>
-     {event1description}
-     <br/><a className='event' href={event1addresslink}> {event1address} </a></p>
-      {/* 
-     <p>   
-     <strong className='event'>{eventdate2}</strong>
-     <h2><a className='event' href={link2}>{event2}</a>
-     </h2> {event2description}<br/>{event2address} </p>
-     <br/><br/>
-    
-    <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
-     <h2><a className='event' href ={link3}>{event3}</a>
-     </h2>{event3description} 
-     <br/> {event3address}</p><p> 
-       <strong className='event'>{eventdate4}</strong>
-     <h2><a className='event' href={link4}>{event4}</a>
-     </h2>{event4description}<br/> {event4address}</p>
-     */}
-     </p>
-    
 
-    
-     
-    
-    <br /><br />
-  </p></Col>
-      </Row>      </Container>
-      </div>
-       
-      
-   
-      
-      
-        
-    <br/>
-      
+  <div className="App" >
+    <Container>
+      <Row>
+        <Col>
+
+          <img className="colort" style={{
+
+
+
+          }} src={logo} alt="" />
+
+
+        </Col>
+        <Col>
+          <Nav.Link className="navlink " as={Link} to={"./Contact"}>
+            <h1 className="link3">Contact</h1>
+            <img className="colort2" src={pincnictable} alt="" />
+
+          </Nav.Link>
+        </Col>
+        <Col>    <Nav.Link className="navlink" as={Link} to={"./aboutus"}>
+              <h1 className="link2" >About Us</h1>
+              <img className="colort2" src={reddoor} alt="" />
+
+            </Nav.Link>
+        </Col>
+      </Row>
+    </Container>
+    <div>
+      <Container>
+        <Row>         
+           <Col >
+
+
+
+          <Nav.Link className="navlink " as={Link} to={"./Archive"}>
+            <h1 className="link1">Archive</h1>
+            <img className="colort2" src={triangleglass} alt="" />
+          </Nav.Link>
+
+
+
+        </Col>
+          <Col>
+          <p className="eventscard">
+
+
+
+<p className='Paragraph3'><br /><br />
+  <h3>UPCOMING EVENTS:</h3>
+  <h2><a className='eventt' href={link1}>{event1}</a>
+  </h2>
+
+  <p> <strong className='event'>{eventdate1}</strong> <br />
+    {event1description}
+    <br /><a className='event' href={event1addresslink}> {event1address} </a></p>
+  {/* 
+<p>   
+<strong className='event'>{eventdate2}</strong>
+<h2><a className='event' href={link2}>{event2}</a>
+</h2> {event2description}<br/>{event2address} </p>
+<br/><br/>
+
+<p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
+<h2><a className='event' href ={link3}>{event3}</a>
+</h2>{event3description} 
+<br/> {event3address}</p><p> 
+<strong className='event'>{eventdate4}</strong>
+<h2><a className='event' href={link4}>{event4}</a>
+</h2>{event4description}<br/> {event4address}</p>
+*/}
+</p>
+
+
+
+
+
+</p>
+          </Col>
+         
+          
+        </Row>
+
+      </Container>
     </div>
-    );
-      
-    export default Landing;
+
+
+
+
+
+
+    <br />
+
+  </div>
+);
+
+export default Landing;

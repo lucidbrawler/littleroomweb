@@ -20,7 +20,7 @@ function OffcanvasExample() {
               placement="end"
             >
               <Offcanvas.Header closeButton>
-              <img href="/" className="logo" src={logo} alt=""/>
+              <a href="/"><img  className="logo" src={logo} alt=""/></a>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   The Little Room
                 </Offcanvas.Title>
