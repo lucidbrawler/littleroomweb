@@ -95,156 +95,156 @@ export default class Archiveslides extends Component {
         <div className="">
           <h2> Archives </h2>
           < Slider {...settings} className=''>
-            <div  className="navlink">
-              <div><p>2020</p><h3><img  className="navlink" src={LeapYearDanceParty} alt=""/></h3>
-              <div>
+            <div  className="archives1">
+              <div><p className="link3" >2020</p><h3><img  className="archives1" src={LeapYearDanceParty} alt=""/></h3>
+              <div className="link2">
               Leap Year Dance Party
               </div>
             </div>
             </div>
-            <div className="navlink">
-            <div><p>2020</p><h3><img className="navlink"  src={OrangeShowSpectrumSeries} alt=""/></h3>
-            <div>
+            <div className="archives1">
+            <div><p className="link3">2020</p><h3><img className="archives1"  src={OrangeShowSpectrumSeries} alt=""/></h3>
+            <div className="link2">
             Orange Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2020</p> <div >
-              <h3><img className="navlink"  src={RedShowSpectrumSeries} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2020</p> <div >
+              <h3><img className="archives1"  src={RedShowSpectrumSeries} alt=""/></h3>
+              <div className="link2">
               Red Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2020</p> <div >
-              <h3><img className="navlink" src={GreenShowSpectrumSeries} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2020</p> <div >
+              <h3><img className="archives1" src={GreenShowSpectrumSeries} alt=""/></h3>
+              <div className="link2">
               Green Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2020</p> <div >
-              <h3><img className="navlink" src={OrangeShowSpectrumSeries2} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2020</p> <div >
+              <h3><img className="archives1" src={OrangeShowSpectrumSeries2} alt=""/></h3>
+              <div className="link2">
               Orange Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2020</p> <div >
-              <h3><img className="navlink" src={RedShowSpectrumSeries2} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2020</p> <div >
+              <h3><img className="archives1" src={RedShowSpectrumSeries2} alt=""/></h3>
+              <div className="link2">
               Red Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={ALittleBitInfiniteInstallation} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={ALittleBitInfiniteInstallation} alt=""/></h3>
+              <div className="link2">
               A Little Bit Infinite Installation
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={AlleyWayGeetDown} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={AlleyWayGeetDown} alt=""/></h3>
+              <div className="link2">
               Alley Way Get Down
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={AlleyWayGeetDown2} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={AlleyWayGeetDown2} alt=""/></h3>
+              <div className="link2">
               Alley Way Get Down
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={BlueShowSpectrumSeries} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={BlueShowSpectrumSeries} alt=""/></h3>
+              <div className="link2">
               Blue Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={CostumeTrashPickup} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={CostumeTrashPickup} alt=""/></h3>
+              <div className="link2">
               Costume Trash Pickup
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={PopupGalleryatALovelyTimeMusicandArtsFestival} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={PopupGalleryatALovelyTimeMusicandArtsFestival} alt=""/></h3>
+              <div className="link2">
               Pop up Gallery at A Lovely Time Music and Arts Festival
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={UVShowSpectrumSeries} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={UVShowSpectrumSeries} alt=""/></h3>
+              <div className="link2">
               UV Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={UVShowSpectrumSeries2} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={UVShowSpectrumSeries2} alt=""/></h3>
+              <div className="link2">
               UV Show Spectrum Series
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={YurtInstallationatALovelyTimeMusicandArtsFestival} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={YurtInstallationatALovelyTimeMusicandArtsFestival} alt=""/></h3>
+              <div className="link2">
               Yurt Installation at A Lovely Time Music and Arts Festival
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2021</p> <div >
-              <h3><img className="navlink" src={AlleyWayGetDown3} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2021</p> <div >
+              <h3><img className="archives1" src={AlleyWayGetDown3} alt=""/></h3>
+              <div className="link2">
               Alley Way Get Down
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2022</p> <div >
-              <h3><img className="navlink" src={ReAwakaneInstallation} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2022</p> <div >
+              <h3><img className="archives1" src={ReAwakaneInstallation} alt=""/></h3>
+              <div className="link2">
               Re-Awakane Installation
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2022</p> <div >
-              <h3><img className="navlink" src={ReAwakenInstallation} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2022</p> <div >
+              <h3><img className="archives1" src={ReAwakenInstallation} alt=""/></h3>
+              <div className="link2">
               Re-Awaken Installation
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2022</p> <div >
-              <h3><img className="navlink" src={AlleyWayGetDown4} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2022</p> <div >
+              <h3><img className="archives1" src={AlleyWayGetDown4} alt=""/></h3>
+              <div className="link2">
               Alley Way Get Down4
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2022</p> <div >
-              <h3><img className="navlink" src={ExperimentalSoundShow} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2022</p> <div >
+              <h3><img className="archives1" src={ExperimentalSoundShow} alt=""/></h3>
+              <div className="link2">
               Experimental Sound Show
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2022</p> <div >
-              <h3><img className="navlink" src={SpringArtMarket} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2022</p> <div >
+              <h3><img className="archives1" src={SpringArtMarket} alt=""/></h3>
+              <div className="link2">
               Spring Art Market
               </div>
             </div>
             </div>
-            <div className="navlink"><p>2019</p> <div >
-              <h3><img className="navlink" src={TheBeginnings} alt=""/></h3>
-              <div>
+            <div className="archives1"><p className="link3" >2019</p> <div >
+              <h3><img className="archives1" src={TheBeginnings} alt=""/></h3>
+              <div className="link2">
               The Beginnings
               </div>
             </div>
