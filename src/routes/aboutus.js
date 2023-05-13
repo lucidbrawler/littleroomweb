@@ -11,11 +11,10 @@ const Aboutus = () => (
       <img src={reddoor}  className="navlink" alt=""/>
     </div>
  
-    </Col>
-    <Col>
+    
     <div className='par2'>
-      <h2>The Little Room is a community arts organization</h2>
-    <h3> created by artists</h3>
+      <h2>The Little Room is a community arts organization created by artists</h2>
+
       <p >We host events and multi-disciplinary programming in our gallery space.</p>
     <p>Our programming provides opportunities for the community to come together around artists sharing their work. Our mission is to promote the arts as a means to create more joy!</p>
     <p>Sometimes you just need <strong>a little room</strong> to make a big impact!</p>
