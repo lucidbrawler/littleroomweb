@@ -36,9 +36,9 @@ const ContactForm = () => {
     
      
     
-    <h3 className="">The Little Room is currently looking for artists, vendors, 
+    <h2 className="">The Little Room is currently looking for artists, vendors, 
     and collaboraters to participate in creating artistic opportunities for all. 
-    Complete the below form to connect. </h3> 
+    Complete the below form to connect. </h2> 
 
     
     <form className="" onSubmit={handleSubmit}>
