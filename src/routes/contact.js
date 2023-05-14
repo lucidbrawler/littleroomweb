@@ -43,23 +43,23 @@ const ContactForm = () => {
     
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
-        <label className="par2" htmlFor="name">Name:
+        <label className="" htmlFor="name">Name:
         <br/>
-        <input className="par2" type="text" id="name" required />
+        <input className="" type="text" id="name" required />
         </label>
        
       </div>
       <div  className="">
-        <label className="par2" htmlFor="email">Email:
+        <label className="" htmlFor="email">Email:
         <br/>
-        <input className="par2" type="email" id="email" required />
+        <input className="" type="email" id="email" required />
         </label>
        
       </div>
       <div  className="">
-        <label className="par2" htmlFor="message">Message:
+        <label className="" htmlFor="message">Message:
         <br/>
-        <textarea className="par2" id="message" required />
+        <textarea className="" id="message" required />
         </label>
         
       </div>
