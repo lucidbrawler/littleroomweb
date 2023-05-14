@@ -19,6 +19,7 @@ const Aboutus = () => (
     <p>Our programming provides opportunities for the community to come together around artists sharing their work. Our mission is to promote the arts as a means to create more joy!</p>
     <p>Sometimes you just need <strong>a little room</strong> to make a big impact!</p>
     </div>
+    
     <div className="par">
     <p className="">
       <h2>A Flexible Events Organization</h2>

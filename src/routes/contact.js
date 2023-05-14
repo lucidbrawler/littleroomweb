@@ -42,21 +42,21 @@ const ContactForm = () => {
 
     
     <form className="" onSubmit={handleSubmit}>
-      <div  className="">
+      <div  className="par2">
         <label className="" htmlFor="name">Name:
         <br/>
         <input className="" type="text" id="name" required />
         </label>
        
       </div>
-      <div  className="">
+      <div  className="par2">
         <label className="" htmlFor="email">Email:
         <br/>
         <input className="" type="email" id="email" required />
         </label>
        
       </div>
-      <div  className="">
+      <div  className="par2">
         <label className="" htmlFor="message">Message:
         <br/>
         <textarea className="" id="message" required />
@@ -65,10 +65,11 @@ const ContactForm = () => {
       </div>
       <button className="link1" type="submit">{status}</button>
     </form>
+    
     <br/>
     <p> Come see the space</p>
-    <p className="contactblock">The little room is located @ 200 S Geddes St, Syracuse, NY, United States, New York</p>
-    <p className="contactblock"> Message us on Instagram or Facebook</p>
+    <h3 className="contactblock">The little room is located @ 200 S Geddes St, Syracuse, NY, United States, New York</h3>
+    <h3 className="contactblock"> Message us on Instagram or Facebook</h3>
       <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
    
