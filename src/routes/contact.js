@@ -45,21 +45,21 @@ const ContactForm = () => {
       <div  className="">
         <label className="par2" htmlFor="name">Name:
         <br/>
-        <input type="text" id="name" required />
+        <input className="par2" type="text" id="name" required />
         </label>
        
       </div>
       <div  className="">
         <label className="par2" htmlFor="email">Email:
         <br/>
-        <input type="email" id="email" required />
+        <input className="par2" type="email" id="email" required />
         </label>
        
       </div>
       <div  className="">
         <label className="par2" htmlFor="message">Message:
         <br/>
-        <textarea id="message" required />
+        <textarea className="par2" id="message" required />
         </label>
         
       </div>
