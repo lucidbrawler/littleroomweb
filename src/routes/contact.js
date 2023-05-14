@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import OffcanvasExample from '../navbar';
 import '../App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
@@ -34,24 +34,31 @@ const ContactForm = () => {
       
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
      
-    <header className="">
-    <p className="Paragraph3">The Little Room is currently looking for artists, vendors, and collaboraters of the community to help create opportunities. </p> 
+    <h1 className="">
+    <h2 className="Paragraph3">The Little Room is currently looking for artists, vendors, 
+    and collaboraters of the community to help create opportunities. </h2> 
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
-        <label className="Paragraph" htmlFor="name">Name:</label>
+        <label className="par" htmlFor="name">Name:</label>
+        <br/>
         <input type="text" id="name" required />
       </div>
       <div  className="">
-        <label className="Paragraph" htmlFor="email">Email:</label>
+        <label className="par" htmlFor="email">Email:</label>
+        <br/>
         <input type="email" id="email" required />
       </div>
       <div  className="">
-        <label className="Paragraph" htmlFor="message">Message:</label>
+        <label className="par" htmlFor="message">Message:</label>
+        <br/>
         <textarea id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button className="link1" type="submit">{status}</button>
     </form>
-    </header>
+    
+      <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+    </h1>
     </div>
     </div>
   );
