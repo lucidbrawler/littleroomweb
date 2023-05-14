@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import OffcanvasExample from '../navbar';
+import {Container, Row, Col } from 'react-bootstrap';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const ContactForm = () => {
@@ -31,7 +32,7 @@ const ContactForm = () => {
     
     <div className="App" >
       <OffcanvasExample/>
-      
+      <Container><Row><Col>
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
      
     <h1 className="">
@@ -60,7 +61,8 @@ const ContactForm = () => {
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </h1>
     </div>
-    </div>
+    </Col></Row></Container>
+        </div>
   );
 };
 
