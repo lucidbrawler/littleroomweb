@@ -35,10 +35,10 @@ const ContactForm = () => {
       <Container><Row><Col>
     
      
-    <h1 className="">
-    <h2 className="">The Little Room is currently looking for artists, vendors, 
+    
+    <h3 className="">The Little Room is currently looking for artists, vendors, 
     and collaboraters to participate in creating artistic opportunities for all. 
-    Complete the below form to connect. </h2> 
+    Complete the below form to connect. </h3> 
 
     
     <form className="" onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ const ContactForm = () => {
     <p className="contactblock"> Message us on Instagram or Facebook</p>
       <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-    </h1>
+   
     
     </Col></Row></Container>
         </div>
