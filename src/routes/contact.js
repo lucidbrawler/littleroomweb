@@ -36,27 +36,33 @@ const ContactForm = () => {
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
      
     <h1 className="">
-    <h2 className="Paragraph3">The Little Room is currently looking for artists, vendors, 
+    <h2 className="">The Little Room is currently looking for artists, vendors, 
     and collaboraters of the community to help create opportunities. </h2> 
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
-        <label className="par" htmlFor="name">Name:</label>
+        <label className="par2" htmlFor="name">Name:
         <br/>
         <input type="text" id="name" required />
+        </label>
+       
       </div>
       <div  className="">
-        <label className="par" htmlFor="email">Email:</label>
+        <label className="par2" htmlFor="email">Email:
         <br/>
         <input type="email" id="email" required />
+        </label>
+       
       </div>
       <div  className="">
-        <label className="par" htmlFor="message">Message:</label>
+        <label className="par2" htmlFor="message">Message:
         <br/>
         <textarea id="message" required />
+        </label>
+        
       </div>
       <button className="link1" type="submit">{status}</button>
     </form>
-    
+    <br/>
       <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </h1>
