@@ -33,11 +33,14 @@ const ContactForm = () => {
     <div className="App" >
       <OffcanvasExample/>
       <Container><Row><Col>
-    <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
+    <div   className="contact"> 
      
     <h1 className="">
     <h2 className="">The Little Room is currently looking for artists, vendors, 
-    and collaboraters of the community to help create opportunities. </h2> 
+    and collaboraters to participate in creating artistic opportunities for all. 
+    Complete the below form to connect. </h2> 
+
+    
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
         <label className="par2" htmlFor="name">Name:
@@ -63,6 +66,9 @@ const ContactForm = () => {
       <button className="link1" type="submit">{status}</button>
     </form>
     <br/>
+    <p> Come see the space</p>
+    <p className="contactblock">The little room is located @ 200 S Geddes St, Syracuse, NY, United States, New York</p>
+    <p className="contactblock"> Message us on Instagram or Facebook</p>
       <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </h1>
