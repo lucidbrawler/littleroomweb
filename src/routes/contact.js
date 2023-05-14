@@ -33,7 +33,7 @@ const ContactForm = () => {
     <div className="App" >
       <OffcanvasExample/>
       <Container><Row><Col>
-    <div   className="contact"> 
+    
      
     <h1 className="">
     <h2 className="">The Little Room is currently looking for artists, vendors, 
@@ -72,9 +72,10 @@ const ContactForm = () => {
       <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </h1>
-    </div>
+    
     </Col></Row></Container>
         </div>
+        
   );
 };
 
