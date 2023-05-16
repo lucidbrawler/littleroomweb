@@ -4,7 +4,7 @@ import pincnictable from '../media/pincnictable.jpeg';
 import reddoor from '../media/redGallery.JPG';
 import triangleglass from '../media/kaleidescope1.JPG';
 
-import logo from '../media/LRlogo.svg';
+import logo from '../media/LRlogo.jpg';
 
 
 // EVENT CALANDER AND DATES

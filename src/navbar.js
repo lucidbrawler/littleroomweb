@@ -1,6 +1,6 @@
 
 import Container from 'react-bootstrap/Container';
-import logo from './media/LRlogo.svg';
+import logo from './media/LRlogo.jpg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
