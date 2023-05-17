@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import logo from './media/LRlogo.jpg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function OffcanvasExample() {
@@ -29,19 +29,8 @@ function OffcanvasExample() {
                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
                   <Nav.Link href="/archive">Archive</Nav.Link>
                   <Nav.Link href="/aboutus">About Us</Nav.Link>
-                  <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  
                 </Nav>
                
               </Offcanvas.Body>
