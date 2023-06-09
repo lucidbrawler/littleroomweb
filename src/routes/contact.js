@@ -71,8 +71,8 @@ const ContactForm = () => {
     <h3 className="contactblock">The little room is located @ 200 S Geddes St, Syracuse, NY, United States, New York</h3>
     <h3 className="contactblock"> Message us on Instagram or Facebook</h3>
     <h1>
-      <a href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+      <a className="socials" href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+      <a className="socials" href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
    
       </h1>
     </Col></Row></Container>

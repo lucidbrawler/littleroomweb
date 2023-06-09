@@ -124,6 +124,8 @@ h2{
   background-color: yellow;
   border: cadetblue;
   border-style: solid;
+
+  border-radius: 3rem 3rem 7rem 2rem;
 }
 .App-logo {
   height: 40vmin;
@@ -212,4 +214,11 @@ margin: 1rem;
 .eventt:hover{
   color:rgb(96, 114, 218);
   text-decoration: none
+}
+.socials{
+  padding: 10px;
+}
+.socialbox{
+  margin:10px;
+  float:right;
 }

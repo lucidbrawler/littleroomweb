@@ -33,25 +33,35 @@ const event4description = "50+ Local artisan vendor's and Live Music!"
 const event4address = "@ 100 college ave , Syracuse, NY"
 */
 
-
+   
 const Landing = () => (
 
   <div className="App" >
     <Container>
+    <h3 className="socialbox">
+    
+    <a className="socials" href="https://www.instagram.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+    
+    <a className="socials" href="https://www.facebook.com/thelittleroomsyr/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+    
+    
+    </h3>
       <Row>
         <Col>
+      
           <img className="colort" style={{
           }} src={logo} alt="" />
+    
         </Col>
         <Col>
           <Nav.Link className="navlink " as={Link} to={"./Contact"}>
             <h1 className="link3">Contact</h1>
             <img className="colort2" src={pincnictable} alt="" />
-
+      
           </Nav.Link>
         </Col>
         <Col></Col>
-     
+       
       </Row>
 
       <Row>
@@ -73,8 +83,9 @@ const Landing = () => (
 
         </Nav.Link>
         </Col>
-      
+     
         <Col>
+  
           <p className="eventscard">
 
 
